@@ -59,6 +59,8 @@ h1, h2 {
 .gallery img {
     width: 100%;
     height: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
 }
 
 footer {
@@ -69,4 +71,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.music-player {
+    margin: 20px 0;
 }
