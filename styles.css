@@ -11,6 +11,7 @@ body {
 }
 
 .container {
+    color: #333;
     max-width: 1200px; /* Limit maximum width of content */
     margin: 0 auto; /* Center the container horizontally */
     padding: 20px;
