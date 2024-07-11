@@ -73,8 +73,8 @@ h1 {
 }
 
 .music-description {
-    color: #ccc; /* Light gray color for description */
-    font-size: 18px;
+    color: #333; /* Light gray color for description */
+    font-size: 50px;
     margin-top: 10px;
 }
 
