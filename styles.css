@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #000; /* This sets the background color to black */
+    color: #fff; /* This sets the text color to white for better contrast */
+    font-family: Arial, sans-serif; /* Optional: Ensure the font remains readable */
     margin: 0;
     padding: 0;
     text-align: center;
