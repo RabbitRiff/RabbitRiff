@@ -67,10 +67,12 @@ h1 {
     color: #333;
     font-family: 'UnifrakturCook', cursive;
     font-size: 24px;
-    transition: color 0.3s;
+    transition: color 0.3s, transform 0.3s; /* Added transition for color and transform */
+    cursor: pointer; /* Optional: Show pointer cursor on hover */
 }
 
 .music-item a:hover {
     text-decoration: underline;
     color: #555;
+    transform: translateY(-5px); /* Example: Moves the text upward by 5 pixels on hover */
 }
