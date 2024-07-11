@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -8,6 +10,11 @@ body {
 
 .container {
     margin-top: 50px;
+}
+
+h1 {
+    font-family: 'UnifrakturCook', cursive;
+    color: #333;
 }
 
 .social-buttons {
@@ -25,6 +32,14 @@ body {
 
 .social-buttons a img:hover {
     transform: scale(1.1);
+}
+
+.music-header {
+    margin-bottom: 20px;
+}
+
+.music-header img {
+    width: 300px; /* Adjust the width of the image as needed */
 }
 
 .music-list {
@@ -49,9 +64,12 @@ body {
 .music-item a {
     text-decoration: none;
     color: #333;
-    font-size: 18px;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 24px;
+    transition: color 0.3s;
 }
 
 .music-item a:hover {
     text-decoration: underline;
+    color: #555;
 }
