@@ -224,3 +224,21 @@ footer {
         margin: 10px 0;
     }
 }
+/* Chibi character styles */
+.chibi-container {
+    position: fixed;
+    bottom: 20px;
+    right: 120px; /* Adjust this value to control distance from the right edge */
+    z-index: 1000;
+}
+
+.chibi {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth transform transition */
+}
+
+/* Add optional hover effect */
+.chibi-container:hover .chibi {
+    transform: scale(1.1);
+}
