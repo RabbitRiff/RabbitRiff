@@ -101,7 +101,19 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 48px;
     margin: 0;
 }
+/* Add styles for the latest music link */
+.latest-music-link {
+    color: #ffd700; /* Text color */
+    font-weight: bold; /* Bold font */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Adjust font size as needed */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
 
+.latest-music-link:hover {
+    color: #f1c40f; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
 /* Content section styles */
 .content {
     padding: 50px 20px;
