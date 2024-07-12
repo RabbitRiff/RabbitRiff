@@ -177,6 +177,11 @@ footer {
     font-weight: bold;
     transition: color 0.3s ease;
 }
+.footer-content a {
+    position: relative;
+    top: -0px; /* Adjust as needed */
+    left: -30px; /* Adjust as needed */
+}
 
 .footer-content a:hover {
     color: #ffd700; /* Change color on hover */
