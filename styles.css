@@ -1,17 +1,16 @@
-/* Reset and general styles */
+/* General styles */
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif; /* Default font family */
-    scroll-behavior: smooth; /* Smooth scrolling behavior */
-    background-color: #f9f9f9; /* Background color */
-    color: #333; /* Default text color */
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-/* Custom font for headings and titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif; /* Metal-themed font for headings */
-    color: white; /* White text color */
+    font-family: 'Oswald', sans-serif;
+    color: white;
 }
 
 /* Navbar styles */
@@ -22,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
-    width: 97%;
+    width: 100%;
     top: 0;
     z-index: 1000;
 }
@@ -32,14 +31,9 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-.navbar .brand a {
-    text-decoration: none;
-    color: white;
-}
-
 .navbar .brand a img {
-    width: 200px; /* Adjust logo width */
-    height: 141px; /* Adjust logo height */
+    width: 150px;
+    height: auto;
 }
 
 .navbar nav ul {
@@ -50,19 +44,15 @@ h1, h2, h3, h4, h5, h6 {
     gap: 20px;
 }
 
-.navbar nav ul li {
-    margin: 0;
-}
-
 .navbar nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 24px; /* Adjust as needed */
+    font-size: 24px;
     padding: 10px 15px;
 }
 
 .navbar nav ul li a:hover {
-    color: #ffd700; /* Change color on hover */
+    color: #ffd700;
 }
 
 /* Hero section styles */
@@ -101,40 +91,18 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 48px;
     margin: 0;
 }
-/* Add styles for the latest music link */
+
 .latest-music-link {
-    color: #ffd700; /* Text color */
-    font-weight: bold; /* Bold font */
-    text-decoration: none; /* Remove underline */
-    font-size: 20px; /* Adjust font size as needed */
-    transition: color 0.3s ease; /* Smooth color transition */
+    color: #ffd700;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
 }
 
 .latest-music-link:hover {
-    color: #f1c40f; /* Change color on hover */
-    text-decoration: underline; /* Underline on hover */
-}
-/* Content section styles */
-.content {
-    padding: 50px 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.container h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.container p {
-    font-size: 18px;
-    max-width: 800px;
-    margin: 0 auto;
+    color: #f1c40f;
+    text-decoration: underline;
 }
 
 /* Gallery section styles */
@@ -174,7 +142,6 @@ footer {
     text-align: center;
     padding: 20px 0;
     width: 100%;
-    margin-top: 0px;
 }
 
 .footer-content {
@@ -189,14 +156,9 @@ footer {
     font-weight: bold;
     transition: color 0.3s ease;
 }
-.footer-content a {
-    position: relative;
-    top: -0px; /* Adjust as needed */
-    left: -30px; /* Adjust as needed */
-}
 
 .footer-content a:hover {
-    color: #ffd700; /* Change color on hover */
+    color: #ffd700;
 }
 
 /* Responsive styles */
@@ -204,6 +166,7 @@ footer {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        padding: 10px;
     }
 
     .navbar nav ul {
@@ -211,17 +174,13 @@ footer {
         gap: 10px;
     }
 
-    .navbar .brand {
-        margin-bottom: 10px;
-    }
-
     .navbar .brand a img {
-        width: 150px; /* Adjust logo width for smaller screens */
-        height: auto;
+        width: 120px;
     }
 
     .navbar nav ul li a {
-        font-size: 20px; /* Adjust font size for smaller screens */
+        font-size: 20px;
+        padding: 5px 10px;
     }
 
     .hero .title {
@@ -241,21 +200,21 @@ footer {
         margin: 10px 0;
     }
 }
+
 /* Chibi character styles */
 .chibi-container {
     position: fixed;
     bottom: 20px;
-    right: 120px; /* Adjust this value to control distance from the right edge */
+    right: 20px;
     z-index: 1000;
 }
 
 .chibi {
-    width: 100px; /* Adjust size as needed */
+    width: 100px;
     height: auto;
-    transition: transform 0.3s ease; /* Smooth transform transition */
+    transition: transform 0.3s ease;
 }
 
-/* Add optional hover effect */
 .chibi-container:hover .chibi {
     transform: scale(1.1);
 }
