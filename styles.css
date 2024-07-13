@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
-    width: 100%;
+    width: 99%;
     top: 0;
     z-index: 1000;
 }
